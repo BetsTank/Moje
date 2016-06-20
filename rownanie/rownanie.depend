@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1466415606 source:d:\program1\trojkat\main.cpp
+	<iostream>
+	<iomanip>
+	<cmath>
+
