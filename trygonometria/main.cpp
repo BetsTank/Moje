@@ -1,49 +1,31 @@
 #include <iostream>
 #include <string>
 #include <sstream>
+#include "kalk.h"
+#include <windows.h>
 
 using namespace std;
 
-double first, second_int;
-string second;
+int choose;
 
 int main()
 {
-    cout << "Wprowadz dzialanie: " << endl;
-    cin >>first>>second;
-
-    char sing=second[0];
-    second[0]='0';
-
-    istringstream iss(second);
-    iss>>second_int;
-
-    switch(sing)
+    cout<<"Zwykly kalkulator -1, rownania kwadratowe -2: "<<endl;
+    cin>>choose;
+    switch(choose)
     {
-    case '-':
-        cout<<first-second_int;
+    case 1:
+        kalkulator();
         break;
 
-    case '+':
-        cout<<first+second_int;
+    case 2:
+        cout<<"hello";
         break;
 
-    case '/':
-        cout<<first/second_int;
+    default:
+        cout<<"wybierz 1 lub 2";
         break;
-
-     case '^':
-        for(int i=0;i<second_int-1;i++)
-        {
-            first=first*first;
-        }
-        cout<<first;
-        break;
-
-
-
     }
-
+    system("pause");
     return 0;
 }
-//////////////////////////to do zrobic zeby potegowanie dzialalo xd

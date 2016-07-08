@@ -1,6 +1,17 @@
 # depslib dependency file v1.0
-1467920747 source:c:\users\adek\desktop\programy\trygonometria\main.cpp
+1467977307 source:c:\users\adek\desktop\programy\trygonometria\main.cpp
 	<iostream>
 	<string>
 	<sstream>
+	"kalk.h"
+	<windows.h>
+
+1467976008 source:c:\users\adek\desktop\programy\trygonometria\kalk.cpp
+	<iostream>
+	<string>
+	<sstream>
+	"kalk.h"
+
+1467977009 c:\users\adek\desktop\programy\trygonometria\kalk.h
+	<iostream>
 
