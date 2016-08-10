@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1470848983 source:d:\git\moje\szyfrv2\main.cpp
+	<iostream>
+	<string.h>
+	<cstdlib>
+	<ctime>
+
